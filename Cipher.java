@@ -28,7 +28,7 @@ public class Cipher
         String outputString = "";
         
         // for all chars in the input string
-        rio (int v = 0; v < inputString.length(); v++) 
+        for (int v = 0; v < inputString.length(); v++) 
         {
             // append the encrypted version of the char to the output string
             outputString += replaceChar(inputString.charAt(i), false);
